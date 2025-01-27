@@ -5,6 +5,8 @@ import { Newsletter } from "@/components/newsletter";
 import About from "@/components/about";
 import Contact from "@/components/contact";
 
+export const dynamic = 'force-static'
+
 export default function Home() {
   return (
     <div>
