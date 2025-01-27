@@ -129,10 +129,10 @@ export default function Home() {
             </div>
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                We're here to help
+                We&apos;re here to help
               </h2>
               <p className="text-gray-600 mb-6">
-                Read through our FAQs and if you can't find what you're looking
+                Read through our FAQs and if you can&apos;t find what you&apos;re looking
                 for, our experts will be happy to answer your questions.
               </p>
               <button className="bg-[#E88B8B] text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors">

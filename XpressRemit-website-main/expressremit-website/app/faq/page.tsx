@@ -26,7 +26,8 @@ export default function FAQ() {
     },
     {
       question: "What do I need to verify my account?",
-      answer: "You'll need a valid government-issued ID and proof of address to verify your account.",
+      answer: "You&apos;ll need a valid government-issued ID and proof of address to verify your account."
+      ,
     },
     {
       question: "Are there any limits on how much I can send?",
@@ -99,8 +100,7 @@ export default function FAQ() {
               </div>
               <h2 className="text-xl font-bold mb-2 text-black">Don't See Your Question?</h2>
               <p className="text-gray-600 mb-4">
-                If your question isn't listed here, feel free to reach out to us through the Contact Us page. We're here
-                to help!
+              If your question isn&apos;t listed here, feel free to reach out to us through the Contact Us page.
               </p>
               <button className="w-full bg-[#E88B8B] text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors">
                 Send Us an Email
