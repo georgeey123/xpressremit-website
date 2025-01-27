@@ -98,7 +98,7 @@ export default function FAQ() {
                 />
               </div>
               </div>
-              <h2 className="text-xl font-bold mb-2 text-black">Don't See Your Question?</h2>
+              <h2 className="text-xl font-bold mb-2 text-black">Don&apos;t See Your Question?</h2>
               <p className="text-gray-600 mb-4">
               If your question isn&apos;t listed here, feel free to reach out to us through the Contact Us page.
               </p>
