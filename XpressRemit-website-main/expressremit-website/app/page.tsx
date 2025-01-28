@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Newsletter } from "@/components/newsletter";
 import About from "@/components/about";
 import Contact from "@/components/contact";
+import Link from "next/link";
 
 export const dynamic = 'force-static'
 
@@ -137,9 +138,12 @@ export default function Home() {
                 Read through our FAQs and if you can&apos;t find what you&apos;re looking
                 for, our experts will be happy to answer your questions.
               </p>
+              <Link href="/faq">
               <button className="bg-[#E88B8B] text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors">
                 READ FAQ
               </button>
+              
+              </Link>
             </div>
           </div>
         </div>
