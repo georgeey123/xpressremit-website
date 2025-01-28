@@ -89,10 +89,7 @@ export default function Contact() {
         <div className="flex flex-col space-y-6">
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Contact Details</h2>
-          <p className="text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-            Aenean commodo ligula eget dolor.
-          </p>
+       
         </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="flex items-center space-x-3 p-4 border rounded-lg bg-white shadow-md">
@@ -101,7 +98,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-gray-900 font-semibold">Address</p>
-                <p className="text-gray-600 text-sm">123 King Street, Accra, Gh.</p>
+                <p className="text-gray-600 text-sm">Accra , Ghana</p>
               </div>
             </div>
             <div className="flex items-center space-x-3 p-4 border rounded-lg bg-white shadow-md">
@@ -110,7 +107,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-gray-900 font-semibold">Email</p>
-                <p className="text-gray-600 text-sm">support@xpressremit.com</p>
+                <p className="text-gray-600 text-sm sm:break-words">xpressremit94@ gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-3 p-4 border rounded-lg bg-white shadow-md">
@@ -119,7 +116,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-gray-900 font-semibold">Phone</p>
-                <p className="text-gray-600 text-sm">+1 800 555 1234</p>
+                <p className="text-gray-600 text-sm">055 741 8886</p>
               </div>
             </div>
             <div className="flex items-center space-x-3 p-4 border rounded-lg bg-white shadow-md">
