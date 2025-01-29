@@ -12,10 +12,10 @@ export function Footer() {
           <SocialLink href="#" icon={Linkedin} />
         </div>
         <div className="flex justify-center space-x-8 mb-8">
-          <Link href="/" className="hover:underline">
+          <Link href="/#about" className="hover:underline">
             About
           </Link>
-          <Link href="/" className="hover:underline">
+          <Link href="/#contact" className="hover:underline">
             Contact us
           </Link>
           <Link href="/faq" className="hover:underline">
