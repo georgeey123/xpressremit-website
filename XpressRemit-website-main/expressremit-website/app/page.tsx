@@ -124,7 +124,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[300px]">
               <Image
-                src="/assets/faq.svg"
+                src="/assets/faq_2.svg"
                 alt="Customer Support"
                 fill
                 className="object-contain rounded-lg"
