@@ -38,7 +38,7 @@ export default function Home() {
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0">
             <Image
-              src="/assets/iphone_home.svg"
+              src="/assets/hero_section.svg"
               alt="Mobile App Preview"
               width={600}
               height={600}
