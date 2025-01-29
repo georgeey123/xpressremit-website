@@ -132,8 +132,8 @@ export default function Contact() {
 
           <div className="relative h-[200px]">
             <Image
-              src="/assets/map.png"
-              alt="About us logo"
+              src="/assets/map.svg"
+              alt="Directions to office"
               fill
               className="object-contain"
             />
