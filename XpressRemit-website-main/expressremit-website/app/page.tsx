@@ -15,7 +15,7 @@ export default function Home() {
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-4xl font-bold text-[#2F9E6E] leading-tight">
+            <h1 className="text-4xl font-bold text-[#009460] leading-tight">
               <span className="text-[#CE2029]">
               Fast
                 </span>. Secure.
@@ -31,7 +31,7 @@ export default function Home() {
             </p>
             <a
               href="/download"
-              className="mt-6 inline-block bg-[#2F9E6E] text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-opacity-90 transition"
+              className="mt-6 inline-block bg-[#009460] text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-opacity-90 transition"
             >
               Download the Mobile App
             </a>
@@ -49,7 +49,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gradient-to-b from-[#A0D3B3] to-white py-16">
+      <section className="bg-gradient-to-b from-[#009460] to-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-12">
             Money Transfer Made Easy
@@ -153,6 +153,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-// push

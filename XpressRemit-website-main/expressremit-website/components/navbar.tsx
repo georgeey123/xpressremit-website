@@ -142,7 +142,7 @@ export function Navbar() {
           <div className="hidden sm:flex sm:items-center">
             <Link
               href="/download"
-              className="bg-[#2F9E6E] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-opacity-90 transition"
+              className="bg-[#009460] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-opacity-90 transition"
             >
               Download App
             </Link>
