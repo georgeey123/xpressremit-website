@@ -29,7 +29,7 @@ export function Footer() {
           </Link>
         </div>
         <div className="text-center text-sm">
-          <p>Copyright © 2024 - Expressremit</p>
+          <p>Copyright © 2024 - Xpressremit</p>
         </div>
       </div>
     </footer>
