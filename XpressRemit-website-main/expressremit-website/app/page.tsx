@@ -5,6 +5,7 @@ import { Newsletter } from "@/components/newsletter";
 import About from "@/components/about";
 import Contact from "@/components/contact";
 import Link from "next/link";
+import HeroImage  from "@/public/assets/fastsecurereliable.svg"
 
 export const dynamic = 'force-static'
 
@@ -15,14 +16,12 @@ export default function Home() {
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-4xl font-bold text-[#009460] leading-tight">
-              <span className="text-[#CE2029]">
-              Fast
-                </span>. Secure.
-              <br />
-              Reliable Remittance
-              <br />
-              Made <span className="text-[#CE2029]">Easy</span>
+            <h1 className=" text-black leading-tight">
+              <Image src={HeroImage} alt="Fast, Secure, Reliable" width={600} height={600} />
+                <p className="mt-6 text-5xl font-extrabold">
+                Remittance Made Easy
+                </p>
+             
             </h1>
             <p className="text-gray-600 mt-4">
               Send money to your loved ones with smiles.<br/> Enjoy faster money

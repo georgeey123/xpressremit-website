@@ -102,12 +102,12 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex items-center space-x-3 p-4 border rounded-lg bg-white shadow-md">
-              <div className="bg-red-500 text-white p-2 rounded-md">
+              <div className="bg-red-500 text-white p-2 rounded-md ">
                 <Mail size={18} />
               </div>
-              <div>
+              <div >
                 <p className="text-gray-900 font-semibold">Email</p>
-                <p className="text-gray-600 text-sm sm:break-words">xpressremit94@ gmail.com</p>
+                <p className="text-gray-600 text-sm break-all ">xpressremit94@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-3 p-4 border rounded-lg bg-white shadow-md">
