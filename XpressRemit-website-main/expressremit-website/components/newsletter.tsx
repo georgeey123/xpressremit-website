@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link"
 
 import { useState } from "react"
 
@@ -12,8 +13,28 @@ export function Newsletter() {
   }
 
   return (
-    <section className="bg-[#2F9E6E] text-white py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#009460] text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
+        <div className="block sm:hidden">
+          <p className="text-left mb-4 text-2xl ">Quick Links</p>
+          <div className="grid grid-cols-2 gap-5 mb-20">
+          <Link href="/#about" className="hover:underline text-left">
+            About
+          </Link>
+          <Link href="/faq" className="hover:underline text-left">
+            FAQs
+          </Link>
+          <Link href="/#contact" className="hover:underline text-left">
+            Contact us
+          </Link>
+          <Link href="/privacy" className="hover:underline text-left">
+            Cookie policy
+          </Link>
+          <Link href="/terms" className="hover:underline text-left">
+            Terms and conditions
+          </Link>
+        </div>
+        </div>
         <h2 className="text-2xl font-bold mb-4">Subscribe to our newsletter</h2>
         <p className="mb-8">
           Join our newsletter to get the latest updates, special offers, and tips for secure and seamless money
@@ -37,7 +58,7 @@ export function Newsletter() {
               onChange={(e) => setAgreed(e.target.checked)}
               required
             />
-            <label htmlFor="terms" className="ml-2 text-sm">
+            <label htmlFor="terms" className="ml-2 text-xs">
               I confirm I am over 18 and I agree to the{" "}
               <a href="#" className="underline">
                 Terms and Conditions and Privacy Policy
