@@ -7,8 +7,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center space-x-6 mb-8">
           <SocialLink href="#" icon={Facebook} />
-          <SocialLink href="#" icon={Instagram} />
-          <SocialLink href="#" icon={Twitter} />
+          <SocialLink href="https://www.instagram.com/xpressremit_app?igsh=MXF6Z3lzNGp3czRidA%3D%3D&utm_source=qr" icon={Instagram} />
+          <SocialLink href="https://x.com/xpressremit_app?s=21" icon={Twitter} />
           <SocialLink href="#" icon={Linkedin} />
         </div>
         <div className="flex justify-center space-x-8 mb-8">
