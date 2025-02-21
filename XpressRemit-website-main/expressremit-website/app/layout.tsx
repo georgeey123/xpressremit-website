@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ExpressRemit - Money Transfer Made Easy",
+  title: "Xpressremit - Money Transfer Made Easy",
   description: "Secure and seamless money transfers delivered straight to your inbox",
 }
 
